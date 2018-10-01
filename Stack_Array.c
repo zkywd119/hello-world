@@ -28,7 +28,7 @@ void push (struct Stack* stack, int new_data)
 {
   if (isFUll(stack))
   {
-    printf("Failed to oush since the stack is full\n");
+    printf("Failed to push since the stack is full\n");
     return;
   }
   stack->top = stack->top+1;
