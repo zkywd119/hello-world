@@ -19,9 +19,11 @@ int main()
     {
       count++;
     }
+
+    printf("count = %d\n",count);
     for(i=0;i<count/2-1;++i)
     {
-      swap(&(line[i]),&(line[count-i-1]));
+      swap(&(line[i]),&(line[count-1-i]));
     }
 
     printf("The reversed string is:%s\n", line);
